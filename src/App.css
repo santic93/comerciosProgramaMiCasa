@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Title";
+  src: url("../src/font/Klavika/klavika-bold.otf");
+}
+@font-face {
+  font-family: "SubTitle";
+  src: url("../src/font/Klavika/klavika-regular-italic.otf");
+}
+@font-face {
+  font-family: "FontSubTitle";
+  src: url("../src/font/Klavika/klavika-bold.otf");
+}
+@font-face {
+  font-family: "Comercio";
+  src: url("../src/font/Klavika/klavika-bold.otf");
+}
+@font-face {
+  font-family: "NombreComercio";
+  src: url("../src/font/Klavika/klavika-bold.otf");
+}
+@font-face {
+  font-family: "CadaComercio";
+  src: url("../src/font/Klavika/klavika-regular-italic.otf");
+}
+@font-face {
+  font-family: "DireccionYTelefono";
+  src: url("../src/font/Klavika/klavika-medium.otf");
+}
+@font-face {
+  font-family: "mapa";
+  src: url("../src/font/Klavika/klavika-medium-italic.otf");
+}
+
+.centrar {
+  text-align: center;
+  align-items: center;
+}
+.container {
+  text-align: center;
+  align-items:center;
+  padding-top: 15px;
+  
+}
+.fontTitulo {
+  color: #81b51e;
+  font-family: "Title";
+  font-size-adjust: 76px;
+}
+.fontSubtitulo {
+  color: #747969;
+  font-family: "SubTitle";
+  font-size-adjust: 27px;
+}
+
+.fontSubtituloComercio {
+  color: #747969;
+  font-family: "FontSubTitle";
+  font-size-adjust: 34px;
+  text-align: center;
+}
+.abs-center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.azul {
+  color: #4ca6da;
+  font-family: "Comercio";
+  font-size-adjust: 80px;
+}
+.celeste {
+  color: #a5d6e5;
+  font-family: "Comercio";
+  font-size-adjust: 80px;
+}
+.verdeClaro {
+  color: #c7d100;
+  font-family: "Comercio";
+  font-size-adjust: 80px;
+}
+
+.verdeOscuro {
+  color: #2b8715;
+  font-family: "Comercio";
+  font-size-adjust: 80px;
+}
+.verde {
+  color: #81b51e;
+  font-family: "Comercio";
+  font-size-adjust: 80px;
+}
+
+.nombreComercio {
+  font-family: "NombreComercio";
+  font-size-adjust: 29px;
+}
+
+.detalle {
+  color: #747969;
+  font-family: "CadaComercio";
+  font-size-adjust: 27px;
+}
+.datos {
+  color: #747969;
+  font-family: "DireccionYTelefono";
+  font-size-adjust: 33px;
+}
+.mapa {
+  font-family: "mapa";
+  font-size-adjust: 20px;
+  text-decoration: none;
+  color: darkblue;
+}
